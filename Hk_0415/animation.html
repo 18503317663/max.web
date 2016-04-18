@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    @keyframes test{
+        from{ width: 200px;}
+        to{width: 700px;}
+    }
+    body{ background: #000;}
+    div{ width: 200px;height: 200px; background: aqua;}
+    div:hover{
+        animation-name:test;  /*  运动名字 */
+        animation-duration:1s; /* 运动时间 */
+        animation-timing-function:ease; /* 运动类型 */
+        animation-iteration-count:infinite; /* 次数 */
+        animation-direction:alternate;  /* 走向 */
+    }
+</style>
+<body>
+    <div></div>
+   <!--  高级运动 -->
+</body>
+</html>
